@@ -1,4 +1,6 @@
-package pl.jano;
+package pl.jano.Algorithm;
+
+import pl.jano.Objects.Point;
 
 import java.util.Random;
 
@@ -6,9 +8,7 @@ public class Calculations {
 
     public Point randomDirectionVector(Point vec, double cos){
         Random rand=new Random();
-
         double sin=Math.sqrt(1-cos*cos);
-
         if(rand.nextBoolean())
             sin=sin*-1;
 

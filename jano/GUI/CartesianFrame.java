@@ -1,7 +1,6 @@
-package pl.jano.Window;
+package pl.jano.GUI;
 
 import javax.swing.*;
-
 
 public class CartesianFrame extends JFrame {
     public CartesianPanel panel;
